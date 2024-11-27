@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+.logo{
+    font-family: "Borel", cursive;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f6f5f5;
+}
+
+header {
+    background-color: #9dd2a8;
+    color: #459865; /* Cor vermelha para o texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    font-size: 44px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: rgb(14, 1, 1); /* Cor vermelha para os links */
+    text-decoration: none;
+    font-size: 24px;
+    font-style: italic;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+input {
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 12px 15px rgba(35, 3, 3, 0.2);
+}
+button {
+    background-color: #fb7d96;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 14px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 12px 15px rgba(35, 3, 3, 0.2);
+}
+button:hover {
+    background-color: #de4343;
+}
+.cart-icon, .user-icon, .heart-icon {
+    font-size: 24px;
+    color: rgba(72, 7, 7, 0.467); /* Cor vermelha para os ícones */
+    cursor: pointer;
+}
+section {
+    padding: 80px 20px; /* Adiciona espaço acima das seções */
+    margin-top: 60px; /* Espaço para o cabeçalho fixo */
+    background-color: #f6f5f5;
+}
+section:nth-child(even) {
+    background-color: #ede9e8;
+}
+
+p {
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    width: 100%;
+    color:#ec84a8;
+    font-family: "Vibur", cursive;
+    font-size: 60px;
+    text-align: center;
+}
+h1 {
+    font-family: "Vibur", cursive;
+    font-size: 45px;
+    text-align: center;
+    margin: bottom 81px;
+}
+
+
+img {
+    width: 80px;
+}
+
+
+
+.vitrine {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: white;
+    border: 1px solid #eb0303;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    max-width: 200px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.produto h2 {
+    font-size: 18px;
+    color: #fb7d96;
+}
+
+.produto .descricao {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.produto .preco {
+    font-size: 20px;
+    color: #f52966;
+    font-weight: bold;
+}
+
+.produto .comprar {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.produto .comprar:hover {
+    background-color: #2ecc71;
+}
+
+#produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p{
+    font-style: italic;
+}
+
+h3{
+    color: #fb7d96;
+    font-size: 35px;
+}
+.input02{
+    padding: 100px;
+}
+   
+.input-cad {
+    padding: 30px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
